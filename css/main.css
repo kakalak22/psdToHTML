@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)) ,url("../img/hero.jpg");
+    height: 900px;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px ;
+}
+
+.nav-menu{
+    list-style: none;
+    color: white;
+}
+
+.nav-menu li{
+    display: inline-block;
+    
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-right: 5px;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-menu li a:hover{
+    color: #F2AC32;
+}
+
+.header-title-1{
+    color: #F2AC32;
+    font-size: 48px;
+    font-family: 'Rochester', cursive;
+    margin-top: 170px;
+    margin-bottom: 15px;
+}
+
+.header-title-2{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    font-size: 55px;
+    letter-spacing: 4px;
+    font-style: italic;
+    margin-bottom: 45px;
+}
+
+.header-cta-button{
+    color: white;
+    background-color: #F2AC32;   
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.header-cta-button:hover{
+    background-color: #ac720d;
+}
+
+.search{
+    margin: 0 20px;
+}
+
+.my-bag{
+    font-size: 26px;
+}
+
+/* Discover Section */
+
+.discover-section{
+    background-color: #d3cfcf;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.food-border{
+    border: 2px solid #F2AC32;
+    position: relative;
+}
+
+.food-overlay{
+    padding: 80px 10px 0 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+}
+
+.food-item{
+    height: 450px;
+    width: 250px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.food-item p {
+    color: #8a8787;
+    font-size: 16px;
+    margin: 40px 0;
+}
+
+.food-item a{
+    font-family: 'Oswald', sans-serif;
+    color: #F2AC32;
+    text-decoration: none;
+}
+
+.food-1{
+    background-image: url("../img/burger.jpg");
+    background-size:cover;
+    margin-top: -35px;
+    box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+}
+.food-2{
+    background-image: url("../img/pasta.jpg");
+    background-size: cover;
+    box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 18px 0px rgba(0,0,0,1);
+}
+
+.discover-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+}
+
+.discover-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+/***************SPECIALITIES SECTION**************/
+
+.specialities-section-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) ,url("../img/foodcover.jpg");
+    background-size: cover;
+    padding: 100px 0 ;
+}
+
+.specialities-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 10px;
+}
+
+
+.specialities-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.specialities-middle{
+    text-align: center;
+    position: relative;
+}
+
+.specialities-middle::before{
+    content: '';
+    position: absolute;
+    border-top: 100px solid #d3cfcf;
+    border-right: 99vw solid transparent;
+    top: -100px;
+    left: 0;
+    background-color: d3cfcf;
+}
+.specialities-middle::after{
+    content: '';
+    position: absolute;
+    border-bottom: 100px solid #d3cfcf;
+    border-left: 99vw solid transparent;
+    bottom: -100px;
+    right: 0;
+    background-color: d3cfcf;
+}
+
+.specialities-row{
+    display: flex;
+    justify-content: center;
+}
+
+.specialities-col{
+    width: 350px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+}
+
+.specialities-image1,
+.specialities-image2,
+.specialities-image3{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.specialities-image1{
+    background-image: url("../img/steak.jpeg");
+    background-size: cover;
+}
+
+.specialities-image1:hover .specialities-overlay,
+.specialities-image2:hover .specialities-overlay,
+.specialities-image3:hover .specialities-overlay{
+    opacity: 1;
+}
+
+.specialities-image2{
+    background-image: url("../img/pizza.jpg");
+    background-size: cover;
+
+}
+.specialities-image3{
+    background-image: url("../img/seafood.jpg") ;
+    background-size: cover;
+
+}
+
+.specialities-h3{
+    font-size: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.specialities-overlay{
+    opacity: 0;
+    position: absolute;
+    background-color: rgb(230, 161, 42, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.specialities-overlay-border{
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
