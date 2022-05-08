@@ -197,7 +197,6 @@ nav{
     border-right: 99vw solid transparent;
     top: -100px;
     left: 0;
-    background-color: d3cfcf;
 }
 .specialities-middle::after{
     content: '';
@@ -206,7 +205,6 @@ nav{
     border-left: 99vw solid transparent;
     bottom: -100px;
     right: 0;
-    background-color: d3cfcf;
 }
 
 .specialities-row{
@@ -286,8 +284,16 @@ nav{
 
 .special-menu-section{
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #d3cfcf;
     padding: 50px;
+}
+
+.special-menu-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .special-menu-h1{
@@ -301,4 +307,173 @@ nav{
     color: black;
     margin-bottom: 60px;
     font-size: 50px;
+}
+
+.special-menu-h3{
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.seperator{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 10px auto;
+}
+
+.seperator-orange{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #F2AC32;
+    margin: 10px auto;
+}
+.special-menu-h4{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+.col-small-h3{
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #F2AC32;
+}
+
+.col-small-h4,
+.col-small-h5{
+    width: 100%;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.col-small-h5{
+    margin-top: 10px;
+    color: #F2AC32;
+}
+
+
+.special-menu-p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    margin: 30px 20px;
+    width: 100%;
+}
+
+.special-menu-col{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.col-large{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap:wrap;
+}
+
+.col-large-text-1,
+.col-large-text-2{
+    background-color: #F2AC32;
+    color: white;
+    justify-content: center;
+    
+}
+
+
+.col-large-image-1{
+    background-image: url(../img/icecream.jpg);
+    background-size: cover;
+}
+
+.col-large-image-2{
+    background-image: url(../img/kebab.jpg);
+    background-size: cover;
+}
+
+.icon-small{
+    color: #F2AC32;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.icon{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.col-small{
+    width: 50%;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.col-small-text-1,
+.col-small-text-2,
+.col-small-text-3,
+.col-small-text-4{
+    background-color: white;
+}
+.col-large-image-1,
+.col-large-image-2,
+.col-small-image-1,
+.col-small-image-2,
+.col-small-image-3,
+.col-small-image-4{
+    position: relative;
+}
+
+.col-small-image-1{
+    background-image: url("../img/chicken.jpg");
+    background-size: cover;
+}
+.col-small-image-2{
+    background-image: url("../img/sushi.jpg");
+    background-size:cover;
+}
+
+.col-small-image-3{
+    background-image: url("../img/sushi2.jpg");
+    background-size:cover;
+}
+
+.col-small-image-4{
+    background-image: url("../img/sushi2.jpg");
+    background-size:cover;
+}
+
+.triangle{
+    border: 18px solid transparent;
+    position: absolute;
+    top: 15%;
+    border-left-color: #F2AC32;
+}
+
+.triangle-small{
+    border: 13px solid transparent;
+    position: absolute;
+    top: 15%;
+    border-left-color: white;
+}
+
+.triangle-small-reverse{
+    border: 13px solid transparent;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    border-right-color: white;
 }
