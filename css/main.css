@@ -281,3 +281,24 @@ nav{
     font-size: 25px;
     letter-spacing: 1px;
 }
+
+/**********SPECIAL MENU SECTION***************/
+
+.special-menu-section{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+.special-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.special-menu-h2{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
