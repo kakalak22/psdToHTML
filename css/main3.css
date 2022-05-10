@@ -196,7 +196,6 @@ body{
 /*********************************************************/
 
 .playground{
-    height: 1800px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -221,6 +220,12 @@ body{
     background-size:cover;
 }
 
+.playground-image-container-3{
+    width: 800px;
+    background-image: url(../img/playground3.jpg);
+    background-size:cover;
+}
+
 .col-text{
     width: 50%;
     height: 900px;
@@ -228,7 +233,7 @@ body{
 }
 
 .playground-text-container{
-    padding: 130px 160px 0px 64px;
+    padding: 130px 160px 0px 130px;
 
 }
 
@@ -277,4 +282,206 @@ body{
 
 .color4{
     color: peru;
+}
+
+.customer-service-container{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-service-col{
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4{
+    font-size: 36px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.icon-1{
+    background-color: #e4fcfe;
+    color: #7cacac;
+}
+
+.icon-2{
+    background-color: #fff3eb;
+    color: #d9c088;
+}
+
+.icon-3{
+    background-color: #f9effa;
+    color: #a185b6;
+}
+
+.icon-4{
+    background-color: #ebfcec;
+    color: #93bc9c;
+}
+
+.customer-service-col h3{
+    text-decoration: none;
+}
+
+
+/*************************************************************/
+
+.business{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.business-h1{
+    font-size: 40px;
+    margin: 100px 0 60px 0;
+}
+
+.business-h3{
+    font-size: 20px;
+}
+
+.business-h3::after{
+    content: ' @Playground';
+    color: rgba(248, 213, 163);
+}
+
+.business-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-image-container{
+    border-top: 3px solid rgba(27, 43, 95);
+    background-image: url("../img/business-partner.jpg");
+    width: 810px;
+    height: 80px;
+}
+
+.random-image-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-1,
+.image-container-2,
+.image-container-3,
+.image-container-4{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.image-container-1{
+    background-image: url("../img/image5.png");
+}
+
+.image-container-2{
+    background-image: url("../img/image6.png");
+}
+
+.image-container-3{
+    background-image: url("../img/image7.png");
+}
+
+.image-container-4{
+    background-image: url("../img/image8.png");
+}
+
+/*************************************************/
+
+.subscribe-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 100px 0;
+}
+
+.subscribe-right-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f1f6;
+    width: 450px;
+    height: 35px;
+    padding: 10px;
+}
+
+.search{
+    float: right;
+    border: none;
+    font-size: 17px;
+    background-color: #f2f1f6;
+}
+
+.icon-list{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-size: 25px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0px 0 -55px;
+    width: 450px;
+}
+
+.icon-list li{
+    margin-right: 40px;
+}
+
+
+/***********/
+
+.footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    border-top: 6px solid;
+    border-bottom: 1px solid;
+    width: 1229px;
+    padding: 60px 0 80px 0;
+}
+
+.footer-list{
+    list-style-type: none;
+    
+}
+
+.copyright-container{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.copyright-container div a{
+    text-decoration: none;
+    color: rgba(27, 43, 95);
+    margin-right: 10px;
 }
